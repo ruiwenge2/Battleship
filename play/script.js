@@ -1,15 +1,12 @@
-import { letters, numbers } from "./variables.js";
+import { letters, numbers, q, id } from "./variables.js";
 
-console.log(numbers)
+(function(){
 
-function q(...args){
-  return document.querySelector(...args);
-}
+  console.log(numbers);
+  for(let i of numbers){
+    
+  }
 
-function id(...args){
-  return document.getElementById(...args);
-}
+})();
 
-for(let i of numbers){
-  
-}
+debugger;
